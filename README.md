@@ -11,6 +11,7 @@ Integrating : Truffle + React
    terminal Two : type: truffle init
 
 In TRUFFLE :
+
 2. Go to truffle-config.js and define the network.
 
 3. Type npm init and add all required dependencies then type npm install
