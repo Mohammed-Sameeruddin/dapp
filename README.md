@@ -21,11 +21,16 @@ In TRUFFLE :
 5. write migration file for corresponding smart contract in migration folder
 
 6. compile the smart contract
+
    type truffle compile
+   
    type truffle migrate
+   
    type truffle console (for manually testing smart contract)
+   
 
 In REACT: go to react folder
+
 7. install web3 type: npm install web3
 
 8. If you get webpack version error then create .env file and type SKIP_PREFLIGHT_CHECK=true and save it.
