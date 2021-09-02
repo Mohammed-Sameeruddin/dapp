@@ -1,4 +1,4 @@
-# dapp
+# DApp
 
 # Integrating React with Truffle
 
