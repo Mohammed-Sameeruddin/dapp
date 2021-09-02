@@ -6,8 +6,9 @@ Integrating : Truffle + React
 
 1. Initializing truffle and creating react app under same folder (split the terminal for better exp)
 
-terminal One : type: npx create-react-app <app_name>
-terminal Two : type: truffle init
+   terminal One : type: npx create-react-app <app_name>
+
+   terminal Two : type: truffle init
 
 In TRUFFLE :
 2. Go to truffle-config.js and define the network.
