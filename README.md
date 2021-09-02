@@ -54,7 +54,6 @@ In REACT: go to react folder
     
     console.log(accounts[0]); // prints first connected account in metamask 
 
-
 For calling smart contract methods and creating transactions in react refer the below documentation
 
 https://web3js.readthedocs.io/en/v1.5.0/web3-eth-abi.html
