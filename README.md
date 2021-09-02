@@ -40,12 +40,18 @@ In REACT: go to react folder
 10. import above js file and web3 in react app 
 
 11. load web3, smart contract address and contract file 
+
     let web3 = new Web3(Web3.givenProvider || "ws://localhost:7545"); // load web3
+    
     const contractAddress = '<smart_contract_address>'; // smart contract address
+    
     const simpleContract = new web3.eth.Contract(<abi_file>, contractAddress); // smart contract
+    
 
 12. For Fetching Accounts use
+
     let accounts = await web3.eth.getAccounts();
+    
     console.log(accounts[0]); // prints first connected account in metamask 
 
 
